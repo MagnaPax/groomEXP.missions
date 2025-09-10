@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oklab & oklch</title>
+
+    <style>
+        .lightness-1 { background-color: oklch(0.40 0.15 200);}
+        .lightness-2 { background-color: oklch(0.50 0.15 200);}
+        .lightness-3 { background-color: oklch(0.60 0.15 200);}
+        .lightness-4 { background-color: oklch(0.70 0.15 200);}
+        .lightness-5 { background-color: oklch(0.80 0.15 200);}
+        .btn.btn-1 { background-color: oklch(from rgb(100, 50, 100) calc(l+0.1) c h); }
+    </style>
+</head>
+<body>
+    <h2>LCH에서 L만 바꾸기</h2>
+    <div class="wrap">
+        <div class="box lightness-1">L 0.40</div>
+        <div class="box lightness-2">L 0.50</div>
+        <div class="box lightness-3">L 0.60</div>
+        <div class="box lightness-4">L 0.70</div>
+        <div class="box lightness-5">L 0.80</div>
+        <button class="btn btn-1">버튼</button>
+    </div>
+</body>
+</html>
