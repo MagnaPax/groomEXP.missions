@@ -13,8 +13,13 @@ HTML과 CSS를 사용하여 웹 페이지의 구조를 작성하고 스타일을
 ## 01. 반응형 유튜브 영상 임베드하기
 > 유튜브에서 선택한 영상의 임베드 코드를 HTML에 추가하고, CSS를 사용해 반응형 레이아웃을 구성합니다. 모바일 화면에서 화면 크기에 맞게 조정되도록 설정해 봅니다. 결과물로 제작한 웹사이트의 데스크탑/모바일 환경의 스크린샷을 제출합니다.
 
+![](https://pbs.twimg.com/media/G0cxfyMaMAAnHYr?format=jpg&name=small)
+![](https://pbs.twimg.com/media/G0cxmEEbgAITsHW?format=jpg&name=small)
+
 ## 02. 간단한 사진 격자 레이아웃 만들기 (CSS Grid)
 > CSS Grid를 사용해 3x3 사진 격자를 만듭니다. 각 사진은 임의의 이미지로 채우며, 사진 간 간격을 CSS로 조정해 줍니다. 결과물로 제작한 사진 격자의 스크린샷을 제출합니다.
+
+![](https://pbs.twimg.com/media/G0cxA4IbsAAAp6Z?format=jpg&name=small)
 
 ## 03. Flexbox로 버튼 정렬하기
 > Flexbox를 사용해 중앙에 정렬된 두 개의 버튼을 디자인합니다. 하나는 "확인", 다른 하나는 "취소" 버튼으로, 버튼에 배경색과 호버 효과를 적용해 봅니다. 결과물로 버튼 두개가 있는 웹 페이지의 스크린샷을 제출합니다.
