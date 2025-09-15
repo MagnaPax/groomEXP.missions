@@ -1,0 +1,96 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 5rem;
+    margin: 1rem;
+}
+
+a{
+    color: black;
+}
+
+.navigation .navigation__list{
+    list-style: none; /* 목록 앞의 점 제거 */
+    padding: 0.3rem;
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-family: Roboto, Arial;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px lightgoldenrodyellow;
+}
+
+.navigation__item{
+    border-radius: 2px;
+}
+
+.navigation__item:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.navigation__item:active{
+    opacity: 0.1;
+}
+
+.gallery{
+    margin: 3rem 7rem 7rem 7rem;
+
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "header header" /* 첫 번째 사진 2열 차지 */
+        "item1 item2";  /* 나머지 아이템 */
+}
+
+.gallery__item-header{
+    grid-area: header;
+    grid-column: 1 / span 2; /* 1열에서 2열까지 */
+}
+
+.gallery__item-header-img{
+    width: 100%; /* 부모 요소 넓이에 맞춤 */
+    height: 100%;/* 부모 요소 높이에 맞춤 */
+    object-fit: cover; /* 요소에 맞게 채움 */
+}
+
+.gallery__item{
+    grid-area: item1; /* 첫 번째 아이템 */
+}
+
+.gallery__item:nth-child(2) {
+    grid-area: item2; /* 두 번째 아이템 */
+}
+
+.gallery__item-img{
+    /* width: auto; */
+    /* height: auto; */
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+article{
+    margin: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+footer{
+    margin-left: 1rem;
+}
